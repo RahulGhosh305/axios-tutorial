@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect } from "react";
 
 /* 
-Check axios->global.js file
+Check axios -> global.js file
 Use global instance if Common headers are share 
 Use When Same Base Url Share
 So Best Use is Custom Instance

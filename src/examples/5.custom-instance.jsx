@@ -12,7 +12,7 @@ const CustomInstance = () => {
   //   Custom Axios Instance
   const fetchData = async () => {
     try {
-      const { data } = await customAxiosInstance("/react-store-products"); // Check axios->custom.js file
+      const { data } = await customAxiosInstance("/react-store-products"); // Check axios -> custom.js file
       const { data2 } = await axios(userUrl);
       console.log(data, data2);
     } catch (error) {
