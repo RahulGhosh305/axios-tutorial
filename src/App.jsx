@@ -1,6 +1,10 @@
 import "./App.css";
+import "./axios/global"; // Global Axios Instance Setup for EXAMPLE FOUR
+
 // import GetRequest from "./examples/1.get-request";
-import PostRequest from "./examples/3.post-request";
+// import RequestWithHeader from "./examples/2.headers";
+// import PostRequest from "./examples/3.post-request";
+import GlobalInstance from "./examples/4.global-instance";
 
 function App() {
   return (
@@ -16,7 +20,10 @@ function App() {
       {/* <RequestWithHeader /> */}
 
       {/* THIRD EXAMPLE */}
-      <PostRequest />
+      {/* <PostRequest /> */}
+
+      {/* FOURTH EXAMPLE */}
+      <GlobalInstance />
     </>
   );
 }
