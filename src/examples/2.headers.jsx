@@ -12,6 +12,7 @@ const RequestWithHeader = () => {
     setData({ ...data, state: 102 });
 
     try {
+      // Handle the success
       const res = await axios(URL, {
         headers: {
           Accept: "application/json", // headers contain extra data
@@ -19,9 +20,9 @@ const RequestWithHeader = () => {
       });
       setData(res.data);
     } catch (error) {
-      console.log(error.message);
+      console.log(error.message); // Handle the error
     } finally {
-      console.log("Call fetchJoke function");
+      console.log("Call fetchJoke function..."); // Code that will always run, regardless of success or error
     }
   };
 

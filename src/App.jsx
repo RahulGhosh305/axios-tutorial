@@ -1,6 +1,6 @@
 import "./App.css";
-// import FirstRequest from "./examples/1.first-request";
-import RequestWithHeader from "./examples/2.headers";
+// import GetRequest from "./examples/1.get-request";
+import PostRequest from "./examples/3.post-request";
 
 function App() {
   return (
@@ -10,10 +10,13 @@ function App() {
       </p>
 
       {/* FIRST EXAMPLE */}
-      {/* <FirstRequest /> */}
+      {/* <GetRequest /> */}
 
       {/* SECOND EXAMPLE */}
-      <RequestWithHeader />
+      {/* <RequestWithHeader /> */}
+
+      {/* THIRD EXAMPLE */}
+      <PostRequest />
     </>
   );
 }
