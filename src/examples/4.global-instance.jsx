@@ -2,8 +2,10 @@ import axios from "axios";
 import { useEffect } from "react";
 
 /* 
+Check axios->global.js file
 Use global instance if Common headers are share 
-Best Use Custom Instance
+Use When Same Base Url Share
+So Best Use is Custom Instance
 */
 
 const productUrl = `https://www.course-api.com/react-store-products`;
@@ -30,7 +32,7 @@ const GlobalInstance = () => {
       <p className="read-the-docs">
         {" "}
         See network tab both api share common haeders by using global
-        instance...
+        instance...see codebase
       </p>
     </div>
   );
