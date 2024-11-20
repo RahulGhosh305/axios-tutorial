@@ -14,7 +14,7 @@ const FirstRequest = () => {
   // Axios Request
   const fetchData = async () => {
     try {
-      const res = await axios(URL); // Handle the success
+      const res = await axios(URL); // Handle the success || {data} = await axios(URL)
       setData(res.data);
     } catch (error) {
       console.log(error.message); // Handle the error

@@ -1,5 +1,5 @@
 import "./App.css";
-import FirstRequest from "./examples/1.first-request";
+// import FirstRequest from "./examples/1.first-request";
 import RequestWithHeader from "./examples/2.headers";
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
       </p>
 
       {/* FIRST EXAMPLE */}
-      <FirstRequest />
+      {/* <FirstRequest /> */}
+
       {/* SECOND EXAMPLE */}
       <RequestWithHeader />
     </>
